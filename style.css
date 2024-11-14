@@ -1,0 +1,184 @@
+.flexcontainer{
+    border:solid black;
+    width:auto;
+    height:auto;
+    display:flex
+}
+
+.flexitem{
+    border:solid green;
+    border-width:2px;
+    margin:auto;
+    padding:auto;
+    height:100px;
+    width:100%;
+}
+#b1{
+    background-color:green
+}
+#b2{
+    background-color:blue
+}
+#b3{
+    background-color:red
+}
+#b4{
+    background-color:yellow
+}
+#b5{
+    background-color:red
+}
+
+
+.parentone{
+    border:dotted red;
+    display:flex;
+    margin: top 1em;
+}
+.kid{
+    border:solid black;
+    padding:12px;
+    border-width:4px;
+}
+#el2{
+    margin-left:auto;
+}
+
+.parenttwo{
+    border:dotted red;
+    display:flex;
+    margin: top 1em;
+}
+.kid2{
+    border:solid black;
+    padding:12px;
+    border-width:4px;
+}
+#em5{
+    margin-left:auto;
+}
+
+.parentthree{
+    border:dotted red;
+    display:flex;
+    margin: top 1em;
+}
+.kid3{
+    border:solid black; 
+    padding:12px;
+    border-width:4px;
+}
+#en1{
+    margin-left: auto;
+}
+
+.parentfour{
+    border:dotted red;
+    display:flex;
+    margin: top 1em;
+    justify-content: center;
+}
+.kid4{
+    border:solid black;
+    padding:12px;
+    border-width:4px;
+}
+
+/* Part2           */
+.parentfour-pt2{
+    border:dotted red;
+    display:flex;
+    margin: top 1em;
+}
+.kid4-pt2{
+    border:solid black;
+    padding:12px;
+    border-width:4px;
+
+}
+.en1-pt2{
+    border:solid black;
+    padding:12px;
+    border-width:4px;
+}
+
+.parentone-pt2{
+    border:dotted red;
+    display:flex;
+    margin: top 1em;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.kid-pt2{
+    border:solid blue;
+    padding:12px;
+    border-width:4px;
+    
+}
+.el1-pt2{
+    border:solid black;
+    padding:12px;
+    border-width:4px;
+}
+
+
+.parenttwo-pt2{
+    border:dotted red;
+    display:flex;
+    margin: top 1em;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.kid2-pt2{
+    border:solid blue;
+    padding:12px;
+    border-width:4px;
+    
+}
+.em2-pt2{
+    border:solid black;
+    padding:12px;
+    border-width:4px;
+    margin-left: auto;
+}
+
+
+/*******************************************/
+/* Activity Flexbox Basic Cards */
+.parentflexcard1{
+    border:solid black;
+    display:flex;
+    margin: top 1em;
+    /*justify-content:space-around;*/
+    flex-wrap: wrap;
+    height:auto;
+    width: auto;
+    
+}
+.eachcard{
+    border:solid black;
+    /*padding:0px;*/
+    margin:2px;
+    border-width:1px;    
+    width:auto;
+    height:auto;
+    flex-wrap:wrap;
+    justify-content:space-around;
+
+}
+.flexkidcover{
+    border:solid black;
+    /*padding:1px;*/
+    border-width:1px;
+    height:200px;
+    width:220px;
+    /*margin-left: auto;*/
+}
+.flexkidtext{
+    border:solid black;
+    /*padding:12px;*/
+    border-width:1px;
+    height:200px;
+    width:220px;
+    /*margin-left: auto; */
+}
