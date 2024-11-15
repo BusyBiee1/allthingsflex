@@ -148,37 +148,51 @@
 .parentflexcard1{
     border:solid black;
     display:flex;
+    /*display:auto;*/
     margin: top 1em;
-    /*justify-content:space-around;*/
-    flex-wrap: wrap;
+    justify-content:space-around;
+    /*flex-wrap: wrap;*/
     height:auto;
     width: auto;
     
 }
 .eachcard{
-    border:solid black;
+    border:solid blue;
     /*padding:0px;*/
-    margin:2px;
-    border-width:1px;    
+    margin:auto;
+    border-width:1px;
+    /*display:flex*/
     width:auto;
     height:auto;
-    flex-wrap:wrap;
-    justify-content:space-around;
+    /*flex-wrap:wrap;*/
+    /*justify-content:stretch;*/
 
 }
-.flexkidcover{
+
+.flexkidcover {
     border:solid black;
-    /*padding:1px;*/
+    /*padding:1px;*/  
     border-width:1px;
-    height:200px;
-    width:220px;
+    height:87px;
+    width:155px;
+    /*object-fit:contain;*/
     /*margin-left: auto;*/
 }
 .flexkidtext{
     border:solid black;
-    /*padding:12px;*/
+    padding:none;
     border-width:1px;
-    height:200px;
-    width:220px;
+    height:87px;
+    width:155px;
     /*margin-left: auto; */
 }
+
+#imgc img{
+    object-fit:contain;
+}
+
+p {
+
+    letter-spacing: -1px; /* Adjust the value to control spacing */
+  
+  }
